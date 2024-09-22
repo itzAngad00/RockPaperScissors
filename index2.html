@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    font-family: Arial, sans-serif;
+}
+.CNTNR {
+    height: 300px; 
+    width: auto;
+    text-align: center;
+    background: rgba(2, 141, 255, 0.7);
+    margin: auto;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+p1{
+    animation: blink linear infinite 2s;
+    font-size: x-large;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font: 400 19vh;
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+.btn{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.bt{
+    height:50px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;    
+    transition: transform 0.3s;
+   
+}
+.bt:hover{
+      background-color: green;
+      transform: scale(1.1);
+  
+}
+
+</style>
+<body>
+    <div class="CNTNR">
+        <h1>
+             HELLO BUDDY! WELCOME TO THIS GAME  &#128522;
+        </h1>
+        <p1>TAP TO PLAY THE GAME</p1>
+        <div class="btn">
+            <a href="index.html"><button class="bt">CLICK HERE</button></a>
+        </div>
+    </div>
+
+</body>
+</html>
